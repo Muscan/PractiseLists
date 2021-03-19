@@ -5,10 +5,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        // O lista de strings
-
         List<String> masini = new ArrayList<>();
-        // o lista in care putem salva stringuri
         masini.add("Dacia");
         masini.add("VW");
         masini.add("Tesla");
