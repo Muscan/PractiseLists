@@ -22,7 +22,6 @@ public class Main {
         //4
         //Afiseaza elem de pe pozitia zero, si masini.get(pozitie) din masini.size(lungimea listei
         //-1, indexul ultimei intrari
-
         System.out.println("Prima si ultima masina sunt: "
                 + masini.get(0)+" "+masini.get(masini.size()-1));
         //3
