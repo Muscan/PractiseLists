@@ -1,8 +1,6 @@
 package com.company;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 public class Main {
 
@@ -16,6 +14,7 @@ public class Main {
         masini.add("Tesla");
         masini.add("Citroen");
         masini.add("Audi");
+        masini.add("loowercase");
 
         /*1.cate caractere are fiecare string
         * 2.lunigmea toatala caractere lista
