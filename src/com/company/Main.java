@@ -7,10 +7,10 @@ import java.util.Locale;
 public class Main {
 
     public static void main(String[] args) {
-        // O lista de stringuri
+        // O lista de strings
 
         List<String> masini = new ArrayList<>();
-        // o lista inca re putem salva stringuri
+        // o lista in care putem salva stringuri
         masini.add("Dacia");
         masini.add("VW");
         masini.add("Tesla");
@@ -25,7 +25,7 @@ public class Main {
         * */
         //4
         //Afiseaza elem de pe pozitia zero, si masini.get(pozitie) din masini.size(lungimea listei
-        // -1, indexul ultimei intrari
+        //-1, indexul ultimei intrari
 
         System.out.println("Prima si ultima masina sunt: "
                 + masini.get(0)+" "+masini.get(masini.size()-1));
@@ -36,6 +36,5 @@ public class Main {
                     + " este " +
                     masini.get(i).length());
         }
-
     }
 }
